@@ -84,7 +84,7 @@
             <?php 
             if (isset($_SESSION['id'])) {
             echo '
-            <a href="login.php" class="btn btn-primary">Vip<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="vip.php" class="btn btn-primary">Vip<i class="fa fa-arrow-right ms-3"></i></a>
         </div>'; 
             }
         ?>
@@ -165,7 +165,7 @@
                 </div>
             </div>
             <div class="row gy-5 gx-4">
-                
+                <h1>Nossas ferramentas:</h1>
                
             </div>
         </div>
@@ -180,108 +180,109 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="row g-4">
-                        <div class="col-12">
-                            <a class="animal-item" href="imagens/brancao da eco.jpg" data-lightbox="animal">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="imagens/brancao da eco.jpg" alt="">
-                                    <div class="animal-text p-4">
-                                        <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
-                                        <h5 class="text-white mb-0">Flor</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-12">
-                            <a class="animal-item" href="imagens/tais.jpeg" data-lightbox="animal">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="imagens/tais.jpeg" alt="">
-                                    <div class="animal-text p-4">
-                                        <p class="text-white small text-uppercase mb-0">Rifa</p>
-                                        <h5 class="text-white mb-0">Ganhadora</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col-12">
+    <a class="animal-item" href="vip.php">
+        <div class="position-relative">
+            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <div class="animal-text p-4">
+                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
+                <h5 class="text-white mb-0">Flor</h5>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="col-12">
+    <a class="animal-item" href="vip.php">
+        <div class="position-relative">
+            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <div class="animal-text p-4">
+                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
+                <h5 class="text-white mb-0">Flor</h5>
+            </div>
+        </div>
+    </a>
+</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="row g-4">
-                        <div class="col-12">
-                            <a class="animal-item" href="imagens/chica.jpg" data-lightbox="animal">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="imagens/chica.jpg" alt="">
-                                    <div class="animal-text p-4">
-                                        <p class="text-white small text-uppercase mb-0">Inspiração</p>
-                                        <h5 class="text-white mb-0">Chiquinha</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-12">
-                            <a class="animal-item" href="imagens/paçoca.jpg" data-lightbox="animal">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="imagens/lixos12.jpg" alt="">
-                                    <div class="animal-text p-4">
-                                        <p class="text-white small text-uppercase mb-0">Galpão</p>
-                                        <h5 class="text-white mb-0">Ecopatinhas
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col-12">
+    <a class="animal-item" href="vip.php">
+        <div class="position-relative">
+            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <div class="animal-text p-4">
+                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
+                <h5 class="text-white mb-0">Flor</h5>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="col-12">
+    <a class="animal-item" href="vip.php">
+        <div class="position-relative">
+            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <div class="animal-text p-4">
+                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
+                <h5 class="text-white mb-0">Flor</h5>
+            </div>
+        </div>
+    </a>
+</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-4">
-                        <div class="col-12">
-                            <a class="animal-item" href="imagens/toca dos bicho.jpg" data-lightbox="animal">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="imagens/lixo23.jpg" alt="">
-                                    <div class="animal-text p-4">
-                                        <p class="text-white small text-uppercase mb-0">Galpão</p>
-                                        <h5 class="text-white mb-0">Ecopatinhas</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-12">
-                            <a class="animal-item" href="imagens/adotagatos (2).jpeg" data-lightbox="animal">
-                                <div class="position-relative">
-                                    <img class="img-fluid" src="imagens/Lixo50.jpg" alt="">
-                                    <div class="animal-text p-4">
-                                        <p class="text-white small text-uppercase mb-0">Arrecadação</p>
-                                        <h5 class="text-white mb-0">Coletas</h5>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col-12">
+    <a class="animal-item" href="vip.php">
+        <div class="position-relative">
+            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <div class="animal-text p-4">
+                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
+                <h5 class="text-white mb-0">Flor</h5>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="col-12">
+    <a class="animal-item" href="vip.php">
+        <div class="position-relative">
+            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <div class="animal-text p-4">
+                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
+                <h5 class="text-white mb-0">Flor</h5>
+            </div>
+        </div>
+    </a>
+</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
   
-    <div class="container-xxl bg-primary visiting-hours my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
+    <div class="container-xxl footer visiting-hours  wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container footer">
+            <div class="row footer">
                 
                 <div class="col-md-6 text-light wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="display-6 text-white mb-5">Contact Info</h1>
+                    <h1 class="display-6 text-white mb-5">Informações de contato.</h1>
                     <table class="table">
                         <tbody>
                             <tr>
-                                <td>Office</td>
-                                <td>Bauru</td>
+                                <td>Local</td>
+                                <td>Senac Bauru</td>
                             </tr>
                             <tr>
-                                <td>Puppy kitty</td>
-                                <td>Bauru</td>
+                                <td>Valor Real</td>
+                                <td>Senac Bauru</td>
                             </tr>
                            
                             <tr>
-                                <td>Support</td>
+                                <td>Suporte</td>
                                 <td>
-                                    <p class="mb-2">+55 14 99187-7240</p>
-                                    <p class="mb-0">darruiz@gmail.com</p>
+                                    <p class="mb-2">+55 (14) 99187-7240</p>
+                                    <p class="mb-0">darruizhomeoffice@gmail.com</p>
                                 </td>
                             </tr>
                         </tbody>
@@ -291,30 +292,17 @@
         </div>
     </div>
 
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
-               
-             
-            </div>
-            <div class="row g-4">
-                
-              
-    
-            </div>
-        </div>
-    </div>
   
     <div class="container-xxl py-5">
         <div class="container">
-            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Integrantes</h1>
+            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Idealizadores</h1>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
 
                 
                 <div class="testimonial-item text-center">
                     <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/Darruiz.jpg" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Desenvolvedor Web e engenheiro de software do grupo responsável pelo desenvolvimento do site e integrações de APIs.</p>
+                        <p>Engenheiro de software do grupo responsável pelo desenvolvimento da plataforma e construção do MVC/Business Model.</p>
                         <h5 class="mb-1">João Darruiz</h5>
                         <span class="fst-italic">Engenheiro de software</span>
                     </div>
@@ -347,23 +335,23 @@
         </div>
     </div>
   
-    <div class="container-fluid footer footer text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-        
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="https://github.com/organizations/ValorReal/">Valor Real</a>, desenvolvido por João Darruiz.
-                    </div>
-                   
+    <div class="custom-footer">
+    <div class="container py-5">
+    
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="cnrt" href="https://github.com/organizations/ValorReal/">Valor Real</a>, desenvolvido por João Darruiz.
                 </div>
+               
             </div>
         </div>
     </div>
+</div>
+
    
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
    

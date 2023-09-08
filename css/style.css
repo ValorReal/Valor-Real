@@ -178,7 +178,19 @@
 .wh { 
     color: #FFFFFF;
 }
+.custom-footer {
+    background-color: #2b134b; 
+    color: #FFFFFF; /
+}
+.cnrt { 
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .footer { 
+    background-color: #2b134b;
+} 
+
+.footer1 { 
     background-color: #2b134b;
 }
 /*** Header ***/

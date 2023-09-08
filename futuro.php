@@ -3,19 +3,24 @@
     	session_start();
 	}
 
-	$id_user = $_SESSION['id'];
+	$id_user = $_SESSION['idUsuario'];
 
-	if(!isset ($_SESSION['id'])) {
+	if(!isset ($_SESSION['idUsuario'])) {
     	header('Location: login.php');
 	}
 
-	require_once('evento/conexao.php');
+	require_once('evento/action/conexao.php');
 	date_default_timezone_set('America/Sao_Paulo');
 
 	$database = new Database();
 	$db = $database->conectar();
 
-
+	$sql = "SELECT id_evento, titulo, descricao, inicio, termino, cor, fk_id_destinatario, fk_id_remetente, status FROM eventos as e
+	LEFT JOIN convites as c ON e.id_evento = c.fk_id_evento
+	Where fk_id_usuario = $id_user";
+	$req = $db->prepare($sql);
+	$req->execute();
+	$events = $req->fetchAll();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,8 +34,9 @@
     <title>Forms</title>
  </head>
  <body>
+
  <div class="cenario">
-	<a href="index.php">Voltar</a>
+	<a href="index.php" class="volt">Voltar</a>
   <div class="cafe">
     <span class="maquina"></span>
     <span class="graomaior"></span>
