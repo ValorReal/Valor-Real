@@ -117,37 +117,39 @@
                     <p><span class="text-primary me-2">#</span>Contato</p>
                     <h1 class="display-5 mb-4">Alguma questão ou sugestão?</h1>
                     <p class="mb-4">Entre em contato com nós por aqui ;)</p>
-                    <form action="evento/process_form.php" method="post">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="name" placeholder="Your Name">
-                                    <label for="name">Seu nome</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control bg-light border-0" id="email" placeholder="Your Email">
-                                    <label for="email">Seu E-mail</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="subject" placeholder="Subject">
-                                    <label for="subject">Celular</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control bg-light border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Mensagem</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar mensagem</button>
-                            </div>
-                        </div>
-                    </form>
+                    <form action="https://formspree.io/f/mnqkvynb" method="POST">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="text" class="form-control bg-light border-0" id="name" name="name" placeholder="Your Name">
+                <label for="name">Seu nome</label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-floating">
+                <input type="email" class="form-control bg-light border-0" id="email" name="email" placeholder="Your Email">
+                <label for="email">Seu E-mail</label>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-floating">
+                <input type="text" class="form-control bg-light border-0" id="subject" name="subject" placeholder="Subject">
+                <label for="subject">Celular</label>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="form-floating">
+                <textarea class="form-control bg-light border-0" name="message" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                <label for="message">Mensagem</label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary w-100 py-3" type="submit">Enviar mensagem</button>
+        </div>
+    </div>
+</form>
+
+
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100" style="min-height: 400px;">

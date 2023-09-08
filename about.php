@@ -33,53 +33,40 @@
 </head>
 
 <body>
- 
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-  
-    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small> Bauru</small>
-                </div>
-              
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+55 14 99187-7240</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-           
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.instagram.com/puppy_kitty_oficial/"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
    
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.php" class="navbar-brand p-0">
-            <img class="img-fluid me-3" src="logopuppy.jpeg" alt="Icon">
-            <h1 class="m-0 text-primary">Projeto do senac</h1>
+            <img class="img-fluid me-3" src="imagens/logovalor.png" alt="Icon">
+            <h1 class="  brand-text">Valor Real</h1>
+
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-                <a href="index.php" class="nav-item nav-link">Home</a>
-                <a href="about.php" class="nav-item nav-link active">Sobre</a>
+                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="about.php" class="nav-item nav-link wh">Sobre</a>
                 
+                <div class="nav-item dropdown">
+                    
                 </div>
                 <a href="contact.php" class="nav-item nav-link">Contato</a>
             </div>
-            <a href="" class="btn btn-primary">Doar<i class="fa fa-arrow-right ms-3"></i></a>
-        </div>
+            <?php 
+            if (!isset($_SESSION['id'])) {
+            echo '
+            <a href="login.php" class="btn btn-primary">Logar<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>'; 
+            }
+        ?>
+            <?php 
+            if (isset($_SESSION['id'])) {
+            echo '
+            <a href="vip.php" class="btn btn-primary">Vip<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>'; 
+            }
+        ?>
     </nav>
   
     <div class="container-fluid header-bg py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
@@ -106,11 +93,17 @@
    
    
     <div class="container-xxl py-5">
-        <div class="container">
-            <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Mais sobre em nosso <a href="https://www.instagram.com/puppy_kitty_oficial/">instagram</a></h1>
-           
-        </div>
+    <div class="container">
+        <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Quem somos?</h1>
+        <p class="text-center">Somos uma organização open source no GitHub com
+             a missão de tornar a gestão financeira, controle de impostos e 
+             declarações acessíveis a um público mais amplo, visando 
+            simplificar e facilitar o processo para o maior número possível de pessoas.</p> 
+            <br> 
+            <p>Clique logo abaixo e confira nós no GitHub</p><a class="cnrtb" href="https://github.com/organizations/ValorReal/">Valor Real</a>
     </div>
+</div>
+
    
     <div class="container-fluid footer footer text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -120,21 +113,10 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bauru</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 14 99187-7240</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>darruizhomeoffice@gmail.com</p>
-                    <div class="d-flex pt-2">
-                        <a href="https://www.instagram.com/puppy_kitty_oficial/" class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
-                    </div>
+                  
                 </div>
               
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Seu Login</h5>
-                    <p>Bem vindo!</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+            
         <div class="custom-footer">
     <div class="container py-5">
     

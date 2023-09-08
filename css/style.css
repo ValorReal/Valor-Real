@@ -185,6 +185,10 @@
 .cnrt { 
     text-decoration: none;
     color: #FFFFFF;
+} 
+.cnrtb { 
+    text-decoration: none;
+    color: #003cff;
 }
 .footer { 
     background-color: #2b134b;
