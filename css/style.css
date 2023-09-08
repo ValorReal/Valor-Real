@@ -1,4 +1,5 @@
 
+
 :root {
     --primary: #778b81;
     --light: #F3F4F5;
@@ -14,7 +15,7 @@
 }
 
 
-/*** Spinner ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -28,8 +29,6 @@
     opacity: 1;
 }
 
-
-/*** Button ***/
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -66,19 +65,23 @@
 }
 
 
-/*** Navbar ***/
+
 .navbar.sticky-top {
     top: -100px;
-    transition: .5s;
+    transition: .5s; 
+    
 }
 
 .navbar .navbar-brand {
     display: flex;
-    align-items: center;
+    align-items: center; 
+    color: #FFFFFF;
+    background-color: #2b134b;
 }
 
 .navbar .navbar-brand img {
-    max-height: 50px;
+    max-height: 50px; 
+    background-color: #2b134b;
 }
 
 .navbar .dropdown-toggle::after {
@@ -87,13 +90,15 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     vertical-align: middle;
-    margin-left: 8px;
+    margin-left: 8px; 
+    background-color: #2b134b;
 }
 
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #FFFFFF; 
+    background-color: #2b134b;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
@@ -102,27 +107,32 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #FFFFFF;  
+    background-color: #2b134b;
 }
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
-        padding: 10px 0;
+        padding: 10px 0; 
+        background-color: #2b134b;
     }
 
     .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid #EEEEEE; 
+        background-color: #2b134b;
     }
 }
 
 .navbar .navbar-nav .nav-link {
-    color: var(--dark);
-    font-weight: 500;
+    color:#FFFFFF;
+    font-weight: 500; 
+    background-color: #2b134b;
 }
 
 @media (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
+        background-color: #2b134b;
         display: block;
         border: none;
         margin-top: 0;
@@ -136,15 +146,46 @@
         top: 100%;
         visibility: visible;
         transition: .5s;
-        opacity: 1;
+        opacity: 1; 
+        background-color: #2b134b;
     }
 }
 
 
+.navbar {
+    background-color: #2b134b;
+    color: #FFFFFF; 
+    transition: .5s;
+}
+.bg-white { 
+    background-color: #2b134b;
+  }
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    background-color: #2b134b; 
+}
+.brand-text {
+    color: #FFFFFF; 
+}
+
+
+.wh { 
+    color: #FFFFFF;
+}
+.footer { 
+    background-color: #2b134b;
+}
 /*** Header ***/
 .header-bg {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(imagens/bg-1.jpg) center center no-repeat;
-    background-size: cover;
+    background-size: cover; 
+    background-color: #2b134b;
 }
 
 .btn-play {
@@ -374,7 +415,7 @@
 }
 
 
-/*** Animal ***/
+
 .animal-item {
     position: relative;
     display: block;
@@ -517,7 +558,7 @@
 }
 
 
-/*** Footer ***/
+/*** footer ***/
 .footer {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(imagens/bg-2.jpg) center center no-repeat;
     background-size: cover;

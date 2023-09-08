@@ -18,8 +18,7 @@ require_once 'evento/conexao.php';
 
     
     <div class="content">      
-  
-      <!--FORMULÁRIO DE CADASTRO--> 
+   
       <div id="cadastro">
         <form method="post" action=""> 
           <h1>Cadastro</h1> 

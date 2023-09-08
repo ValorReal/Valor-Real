@@ -53,43 +53,21 @@
         </div>
     </div>
     
-    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
-                    <small>Bauru</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center py-3">
-                    <small class="far fa-clock text-primary me-2"></small>
-                    <small>24hrs</small>
-                </div>
-            </div>
-            <div class="col-lg-5 px-5 text-end">
-                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-                    <small class="fa fa-phone-alt text-primary me-2"></small>
-                    <small>+55 14 99187-7240</small>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                  
-                    <a href="https://www.instagram.com/puppy_kitty_oficial/" class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+ 
   
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand p-0">
-            <img class="img-fluid me-3" src="imagens/logopuppy.jpeg" alt="Icon">
-            <h1 class="m-0 text-primary">Puppy kitty</h1>
+        <a href="index.php" class="navbar-brand p-0">
+            <img class="img-fluid me-3" src="imagens/logovalor.png" alt="Icon">
+            <h1 class="  brand-text">Valor Real</h1>
+
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">Sobre</a>
+                <a href="index.php" class="nav-item nav-link active">Home</a>
+                <a href="about.php" class="nav-item nav-link wh">Sobre</a>
                 
                 <div class="nav-item dropdown">
                     
@@ -112,7 +90,7 @@
         ?>
     </nav>
  
-    <div class="container-fluid bg-dark p-0 mb-5">
+    <div class="container-fluid footer p-0 mb-5">
         <div class="row g-0 flex-column-reverse flex-lg-row">
             <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
                 <div class="header-bg h-100 d-flex flex-column justify-content-center p-5">
@@ -123,20 +101,20 @@
                             data-src="youtubefuturo" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                        <h6 class="text-white m-0 ms-4 d-none d-sm-block">Video da Puppy kitty</h6>
+                        <h6 class="text-white m-0 ms-4 d-none d-sm-block">Video animado valor real.</h6>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div class="owl-carousel header-carousel">
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="imagens/chicalo.jpg" alt="">
+                        <img class="img-fluid" src="imagens/cash1.gif" alt="">
                     </div>
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="imagens/premio1.jpg" alt="">
+                        <img class="img-fluid" src="imagens/cash2.png" alt="">
                     </div>
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="imagens/gelados12.jpg" alt="">
+                        <img class="img-fluid" src="imagens/cash3.png" alt="">
                     </div>
                 </div>
             </div>
@@ -180,7 +158,7 @@
                     <div class="bg-primary h-100 d-flex align-items-center py-4 px-4 px-sm-5">
                         <i class="fa fa-3x fa-mobile-alt text-white"></i>
                         <div class="ms-4">
-                            <p class="text-white mb-0">Ligue para saber mais.</p>
+                            <p class="text-white mb-0">Ligue para funcões específicas.</p>
                             <h2 class="text-white mb-0">+55 14 99187-7240</h2>
                         </div>
                     </div>
@@ -369,7 +347,7 @@
         </div>
     </div>
   
-    <div class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid footer footer text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
         
         </div>
@@ -377,7 +355,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="https://www.instagram.com/puppy_kitty_oficial/">Puppy kitty</a>, desenvolvedor João Darruiz.
+                        &copy; <a class="border-bottom" href="https://github.com/organizations/ValorReal/">Valor Real</a>, desenvolvido por João Darruiz.
                     </div>
                    
                 </div>
