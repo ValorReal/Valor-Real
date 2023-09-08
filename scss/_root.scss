@@ -1,0 +1,14 @@
+:root {
+ 
+  @each $color, $value in $colors {
+    --#{$variable-prefix}#{$color}: #{$value};
+  }
+
+  @each $color, $value in $theme-colors {
+    --#{$variable-prefix}#{$color}: #{$value};
+  }
+
+  --#{$variable-prefix}font-sans-serif: #{inspect($font-family-sans-serif)};
+  --#{$variable-prefix}font-monospace: #{inspect($font-family-monospace)};
+  --#{$variable-prefix}gradient: #{$gradient};
+}
