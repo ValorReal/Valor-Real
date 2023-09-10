@@ -85,7 +85,11 @@
             if (isset($_SESSION['id'])) {
             echo '
             <a href="vip.php" class="btn btn-primary">Vip<i class="fa fa-arrow-right ms-3"></i></a>
-        </div>'; 
+        </div> 
+        |
+        <a href="logout.php" class="btn btn-primary">Sair<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>';  
+        
             }
         ?>
     </nav>
@@ -96,7 +100,7 @@
                 <div class="header-bg h-100 d-flex flex-column justify-content-center p-5">
                     <h1 class="display-4 text-light mb-5">Quem somos?</h1>
                     <div class="d-flex align-items-center pt-4 animated slideInDown">
-                        <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">Read More</a>
+                        <a href="about.php" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">Leia mais.</a>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="youtubefuturo" data-bs-target="#videoModal">
                             <span></span>
@@ -183,10 +187,10 @@
                     <div class="col-12">
     <a class="animal-item" href="vip.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <img class="img-fluid" src="imagens/jurosc.png" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
-                <h5 class="text-white mb-0">Flor</h5>
+                <p class="text-white small text-uppercase mb-0">Calculadora</p>
+                <h5 class="text-white mb-0">Juros Compostos</h5>
             </div>
         </div>
     </a>
@@ -195,10 +199,10 @@
 <div class="col-12">
     <a class="animal-item" href="vip.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <img class="img-fluid" src="imagens/planreal.gif" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
-                <h5 class="text-white mb-0">Flor</h5>
+                <p class="text-white small text-uppercase mb-0">Planilha para Gestão</p>
+                <h5 class="text-white mb-0">Recomendação de controle pessoal</h5>
             </div>
         </div>
     </a>
@@ -210,10 +214,10 @@
                     <div class="col-12">
     <a class="animal-item" href="vip.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <img class="img-fluid" src="imagens/roubolegal.png" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
-                <h5 class="text-white mb-0">Flor</h5>
+                <p class="text-white small text-uppercase mb-0">IRRF</p>
+                <h5 class="text-white mb-0">Imposto sobre a renda retido na fonte</h5>
             </div>
         </div>
     </a>
@@ -236,10 +240,10 @@
                     <div class="col-12">
     <a class="animal-item" href="vip.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <img class="img-fluid" src="imagens/b3logo1.png" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
-                <h5 class="text-white mb-0">Flor</h5>
+                <p class="text-white small text-uppercase mb-0">Melhores empresas do mercado.</p>
+                <h5 class="text-white mb-0">Não é recomendação de compra.</h5>
             </div>
         </div>
     </a>

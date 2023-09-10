@@ -8,31 +8,32 @@
     <title>Tela Login</title>
 </head>
 <body>
+   
     <div class="main-login">
-        <div class="left-login"> 
-            <h1>Pagina teste para <br> login clerison. </h1>
-            <img src="imagens/standup-meeting-animate.svg" class="left-login-image" alt="imagem principal">
-        </div>  
-
-        <div class="right-login"> 
+        <div class="card-login">
+            <h1>Valor<br>Real</h1>
+            <img src="imagens/logovalor.png" class="left-login-image" alt="imagem principal">
             
-                <form action="logar.php" method="post">
-                <div class="card-login">
-                <h1>Login</h1>
-                    <div class="text-field">
-                        <label  for="usuario">Usuário</label>
-                        <input type="text" name="usuario" placeholder="Usuário"> 
-                        <br>
-                        <label for="password"> Senha</label>
-                        <input type="password" name="password" placeholder="Senha">
-                    </div>
-                    <button class="btn-login" type="submit">Login</button>
-                </form> 
-                <a href="cadastro.php" class="cds">Cadastre-se</a>
+            <form action="logar.php" method="post">
+                <h2>Login</h2>
+                <div class="text-field">
+                    <label  for="email">E-Mail</label>
+                    <input type="text" name="email" placeholder="Insira seu E-Mail."> 
+                </div>
+                <div class="text-field">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Senha">
+                </div>
+                <button class="btn-login" type="submit">Login</button>
+            </form> 
+            <div class="dcads">
+            <a href="cadastro.php" class="cads">Cadastrar-se</a>
             </div>
-          
         </div>
-        <footer>&copy; Darruiz 2023</footer>
     </div>
+    <div class="container">
+    <footer>&copy; Darruiz 2023</footer>
+</div>
+
 </body>
 </html>

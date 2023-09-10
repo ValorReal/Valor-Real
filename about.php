@@ -1,3 +1,16 @@
+<?php
+    session_start(); 
+    
+    if (isset($_SESSION['id'])) {
+        $id_user = $_SESSION['id']; 
+    }
+
+    require_once('evento/conexao.php');
+    date_default_timezone_set('America/Sao_Paulo');
+
+    $database = new Database();
+    $db = $database->conectar();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,19 +21,19 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
 
-   
+
     <link href="favicon.ico" rel="icon">
 
-
+ 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap" rel="stylesheet"> 
 
-  
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/all.min.css" rel="stylesheet">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-    
+   
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/lightbox.min.css" rel="stylesheet">
     <link href="css/owl.carousel.min.css" rel="stylesheet">
@@ -64,7 +77,11 @@
             if (isset($_SESSION['id'])) {
             echo '
             <a href="vip.php" class="btn btn-primary">Vip<i class="fa fa-arrow-right ms-3"></i></a>
-        </div>'; 
+        </div> 
+        |
+        <a href="logout.php" class="btn btn-primary">Sair<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>';  
+        
             }
         ?>
     </nav>
