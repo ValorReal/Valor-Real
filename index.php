@@ -93,38 +93,25 @@
             }
         ?>
     </nav>
- 
     <div class="container-fluid footer p-0 mb-5">
-        <div class="row g-0 flex-column-reverse flex-lg-row">
-            <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
-                <div class="header-bg h-100 d-flex flex-column justify-content-center p-5">
-                    <h1 class="display-4 text-light mb-5">Quem somos?</h1>
-                    <div class="d-flex align-items-center pt-4 animated slideInDown">
-                        <a href="about.php" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">Leia mais.</a>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="youtubefuturo" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <h6 class="text-white m-0 ms-4 d-none d-sm-block">Video animado valor real.</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <div class="owl-carousel header-carousel">
-                    <div class="owl-carousel-item">
-                        <img class="img-fluid" src="imagens/cash1.gif" alt="">
-                    </div>
-                    <div class="owl-carousel-item">
-                        <img class="img-fluid" src="imagens/cash2.png" alt="">
-                    </div>
-                    <div class="owl-carousel-item">
-                        <img class="img-fluid" src="imagens/cash3.png" alt="">
-                    </div>
+    <div class="row g-0 flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 p-0 wow fadeIn custom-height" data-wow-delay="0.1s">
+            <div class="header-bg h-50 d-flex flex-column justify-content-center p-5">
+                <h1 class="display-4 text-light mb-5">Quem somos?</h1>
+                <div class="d-flex align-items-center pt-4 animated slideInDown">
+                    <a href="about.php" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">Leia mais.</a>
+                    <button type="button" class="btn-play" data-bs-toggle="modal"
+                        data-src="youtubefuturo" data-bs-target="#videoModal">
+                        <span></span>
+                    </button>
+                    <h6 class="text-white m-0 ms-4 d-none d-sm-block">Video animado valor real.</h6>
                 </div>
             </div>
         </div>
+       
     </div>
-   
+</div>
+
     <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content rounded-0">
@@ -225,10 +212,10 @@
 <div class="col-12">
     <a class="animal-item" href="vip.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <img class="img-fluid" src="imagens/emprereal.gif" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
-                <h5 class="text-white mb-0">Flor</h5>
+                <p class="text-white small text-uppercase mb-0">Planilha DRE</p>
+                <h5 class="text-white mb-0">Demonstrativo do Resultado do Exercício</h5>
             </div>
         </div>
     </a>
