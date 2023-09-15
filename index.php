@@ -238,7 +238,7 @@
 <div class="col-12">
     <a class="animal-item" href="vip.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/cash2.png" alt="">
+            <img class="img-fluid" src="imagens/tipocnpj.png" alt="">
             <div class="animal-text p-4">
                 <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
                 <h5 class="text-white mb-0">Flor</h5>
@@ -291,7 +291,7 @@
 
                 
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/Darruiz.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/darruiz.png" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
                         <p>Engenheiro de software do grupo responsável pelo desenvolvimento da plataforma e construção do MVC/Business Model.</p>
                         <h5 class="mb-1">João Darruiz</h5>
@@ -299,29 +299,37 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/Isabella.jpeg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/godoy.png" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Designer e markting do grupo, fez toda a estrutura de divulgação de nosso projeto.</p>
-                        <h5 class="mb-1">Isabella Pascale</h5>
+                        <p>Responsável pelo desing da plataforma.</p>
+                        <h5 class="mb-1">Lucas Godoy</h5>
                         <span class="fst-italic">Designer</span>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/lean.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/pedro.png" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Organizou todo o grupo e apresentações a terceiros.</p>
-                        <h5 class="mb-1">Guilherme Leandrin</h5>
-                        <span class="fst-italic">Marketing</span>
+                        <p>Assistente geral, com auxilio na organização nos repositórios do GitHub</p>
+                        <h5 class="mb-1">Pedro Fantin</h5>
+                        <span class="fst-italic">Open Source Manager</span>
                     </div>
                 </div> 
                 <div class="testimonial-item text-center">
-                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/Dimitri.jpg" style="width: 100px; height: 100px;">
+                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/gui.png" style="width: 100px; height: 100px;">
                     <div class="testimonial-text rounded text-center p-4">
-                        <p>Entrou em contato com ongs para fechar trabalhos em conjunto.</p>
-                        <h5 class="mb-1">Dimitri</h5>
-                        <span class="fst-italic">Organizador</span>
+                        <p>Responsável pelos textos explicativos da plataforma.</p>
+                        <h5 class="mb-1">Gulherme camargo</h5>
+                        <span class="fst-italic">Escritor</span>
                     </div>
-                </div>
+                </div>  
+                <div class="testimonial-item text-center">
+                    <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="imagens/malu.png" style="width: 100px; height: 100px;">
+                    <div class="testimonial-text rounded text-center p-4">
+                        <p>Responsável por registrar os avanços lógicos da plataforma.</p>
+                        <h5 class="mb-1">Maria Luiza Manarin</h5>
+                        <span class="fst-italic">Auxiliar</span>
+                    </div>
+                </div> 
             </div>
         </div>
     </div>

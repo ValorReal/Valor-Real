@@ -112,10 +112,32 @@
     <div class="container-xxl py-5">
     <div class="container">
         <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Quem somos?</h1>
-        <p class="text-center">Somos uma organização open source no GitHub com
-             a missão de tornar a gestão financeira, controle de impostos e 
-             declarações acessíveis a um público mais amplo, visando 
-            simplificar e facilitar o processo para o maior número possível de pessoas.</p> 
+        <p class="text-center">A nossa organização é dedicada a uma causa que busca revolucionar a maneira como as pessoas lidam com suas finanças e obrigações fiscais. 
+            No coração do nosso projeto, está a crença de que todos devem ter acesso a ferramentas eficazes e simples para gerir suas finanças pessoais e cumprir com suas 
+            obrigações fiscais de forma fácil e acessível. <br> <br>
+
+Estamos firmemente comprometidos em promover a transparência e a inclusão financeira, permitindo que um público mais amplo,
+ independentemente de seu nível de conhecimento financeiro, possa tomar as rédeas de sua situação financeira e cumprir com suas
+  obrigações tributárias sem estresse ou complexidade desnecessária. <br>
+<br>
+No GitHub, nossa plataforma open source é o epicentro desse movimento. Através de colaborações globais,
+ voluntários apaixonados e desenvolvedores talentosos, estamos construindo e refinando ferramentas que capacitam as pessoas
+  a entender melhor suas finanças, gerenciar seus impostos e realizar declarações de forma eficiente. Nossa comunidade é um 
+  reflexo do nosso compromisso com a acessibilidade e a simplicidade. <br> <br>
+
+Nossos projetos são alimentados por valores fundamentais de transparência, acessibilidade e colaboração.
+ Reconhecemos que a gestão financeira e o cumprimento das obrigações fiscais podem ser desafios significativos,
+  mas acreditamos que a tecnologia pode ser uma força poderosa para simplificar esses processos. Com o apoio de nossa 
+  comunidade, continuaremos a aprimorar nossas soluções, oferecendo recursos valiosos e informações educacionais para 
+  todos que desejam aprimorar suas habilidades financeiras. <br> <br>
+
+À medida que continuamos a avançar em nossa jornada, buscamos ampliar nosso impacto e
+ alcançar um público ainda mais amplo, capacitando indivíduos, famílias e pequenas empresas
+  a tomar decisões financeiras informadas e a cumprir suas obrigações fiscais de maneira eficaz.
+   Estamos comprometidos em fazer a diferença no mundo financeiro e esperamos que você se junte a 
+   nós nessa missão emocionante de tornar a gestão financeira mais acessível e descomplicada para
+    todos. Juntos, podemos alcançar um futuro onde todos tenham as ferramentas e o conhecimento
+     necessários para prosperar financeiramente.</p> 
             <br> 
             <p>Clique logo abaixo e confira nós no GitHub</p><a class="cnrtb" href="https://github.com/organizations/ValorReal/">Valor Real</a>
     </div>
