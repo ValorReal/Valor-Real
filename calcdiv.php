@@ -99,7 +99,12 @@
             }
         ?>
     </nav> 
-    <h1>Calculadora de Dividendos Reinvestidos</h1>
+    <h1>Calculadora de Dividendos Reinvestidos</h1> 
+    <?php 
+   if ($_SERVER["REQUEST_METHOD"] == "POST") { 
+        echo "<p>para ver o resultado role para baixo</p>";
+    } 
+    ?>
 
     <form action="" method="post">
         <label for="cotas">Quantidade de Cotas:</label>
@@ -114,8 +119,11 @@
         <label for="valorizacao">Valorização Anual da Cota (%):</label>
         <input type="number" name="valorizacao" step="0.01" required><br>
 
-        <label for="aporte_mensal">Aporte Mensal:</label>
+        <label for="aporte_mensal">Aporte Mensal Inicial:</label>
         <input type="number" name="aporte_mensal" step="0.01" required><br>
+
+        <label for="aumento_aporte_anual">Aumento Anual do Aporte (%) :</label>
+        <input type="number" name="aumento_aporte_anual" step="0.01" required><br>
 
         <label for="anos">Número de Anos:</label>
         <input type="number" name="anos" required><br>
@@ -123,44 +131,51 @@
         <input type="submit" value="Calcular">
     </form>
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $cotas = $_POST["cotas"];
-        $valor_cota = $_POST["valor_cota"];
-        $yield = $_POST["yield"] / 100;
-        $valorizacao = $_POST["valorizacao"] / 100;
-        $aporte_mensal = $_POST["aporte_mensal"] * 12;
-        $anos = $_POST["anos"];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $cotas = $_POST["cotas"];
+    $valor_cota = $_POST["valor_cota"];
+    $yield = $_POST["yield"] / 100;
+    $valorizacao = $_POST["valorizacao"] / 100;
+    $aporte_mensal = $_POST["aporte_mensal"];
+    $aumento_aporte_anual = $_POST["aumento_aporte_anual"] / 100; 
+    $anos = $_POST["anos"];
 
-        $total_cotas = $cotas;
-        $total_dividendos_recebidos = 0;
-        $total_aportes = $aporte_mensal * $anos;
+    $total_cotas = $cotas;
+    $total_dividendos_recebidos = 0;
+    $total_aportes = 0;
 
-        echo "<h2>Resultado Anual:</h2>";
-        echo "<table border='1'>";
-        echo "<tr><th>Ano</th><th>Valor de 1 Cota</th><th>Quantidade de Cotas</th><th>Valor Investido</th><th>Aporte Anual</th><th>Dividendos</th><th>Dividendos Reinvestidos</th></tr>";
+    echo "<h2>Resultado Anual:</h2>";
+    echo "<table border='1'>";
+    echo "<tr><th>Ano</th><th>Valor de 1 Cota</th><th>Quantidade de Cotas</th><th>Valor Investido</th><th>Aporte Anual</th><th>Dividendos</th><th>Dividendos Reinvestidos</th></tr>";
 
-        for ($i = 1; $i <= $anos; $i++) {
-            $valor_cota += $valor_cota * $valorizacao;
-            $dividendos = $total_cotas * $valor_cota * $yield;
-            $total_dividendos_recebidos += $dividendos;
+    for ($i = 1; $i <= $anos; $i++) {
+        $valor_cota += $valor_cota * $valorizacao;
+        $dividendos = $total_cotas * $valor_cota * $yield;
+        $total_dividendos_recebidos += $dividendos;
+        
+        $aporte_anual = $aporte_mensal * 12;
+        $total_aportes += $aporte_anual;
 
-            $cotas_compradas_com_aporte = $aporte_mensal / $valor_cota;
+        $cotas_compradas_com_aporte = $aporte_anual / $valor_cota;
+        $total_cotas += $cotas_compradas_com_aporte;
 
-            $cotas_compradas_com_dividendos = $dividendos / $valor_cota;
+       
+        $cotas_compradas_com_dividendos = $dividendos / $valor_cota;
+        $total_cotas += $cotas_compradas_com_dividendos;
 
-          
-            $total_cotas += $cotas_compradas_com_aporte + $cotas_compradas_com_dividendos;
+     
+        $aporte_mensal += $aporte_anual * $aumento_aporte_anual / 12;
 
-            echo "<tr><td>$i</td><td>R$ " . number_format($valor_cota, 2, ",", ".") . "</td><td>" . number_format($total_cotas, 2, ",", ".") . "</td><td>R$ " . number_format($total_cotas * $valor_cota, 2, ",", ".") . "</td><td>R$ " . number_format($aporte_mensal, 2, ",", ".") . "</td><td>R$ " . number_format($dividendos, 2, ",", ".") . "</td><td>R$ " . number_format($cotas_compradas_com_dividendos * $valor_cota, 2, ",", ".") . "</td></tr>";
-        }
-
-        echo "</table>";
-        echo "<h2>Resultado Após $anos Anos:</h2>";
-        echo "<p>Valor Total: R$ " . number_format($total_cotas * $valor_cota, 2, ",", ".") . "</p>";
-        echo "<p>Dividendos Recebidos: R$ " . number_format($total_dividendos_recebidos, 2, ",", ".") . "</p>";
-        echo "<p>Aporte Total: R$ " . number_format($total_aportes, 2, ",", ".") . "</p>";
+        echo "<tr><td>$i</td><td>R$ " . number_format($valor_cota, 2, ",", ".") . "</td><td>" . number_format($total_cotas, 2, ",", ".") . "</td><td>R$ " . number_format($total_cotas * $valor_cota, 2, ",", ".") . "</td><td>R$ " . number_format($aporte_anual, 2, ",", ".") . "</td><td>R$ " . number_format($dividendos, 2, ",", ".") . "</td><td>R$ " . number_format($cotas_compradas_com_dividendos * $valor_cota, 2, ",", ".") . "</td></tr>";
     }
-    ?>
+
+    echo "</table>";
+    echo "<h2>Resultado Após $anos Anos:</h2>";
+    echo "<p>Valor Total: R$ " . number_format($total_cotas * $valor_cota, 2, ",", ".") . "</p>";
+    echo "<p>Dividendos Recebidos: R$ " . number_format($total_dividendos_recebidos, 2, ",", ".") . "</p>";
+    echo "<p>Aporte Total: R$ " . number_format($total_aportes, 2, ",", ".") . "</p>";
+}
+?>
  <div class="custom-footer">
     <div class="container py-5">
     
