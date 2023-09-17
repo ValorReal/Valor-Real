@@ -16,12 +16,12 @@
 	$db = $database->conectar();
 
 
-$query = "SELECT id, nome, email, data_aniversario FROM usuarios WHERE id = :id";
-$stmt = $db->prepare($query);
-$stmt->bindParam(':id', $id_user, PDO::PARAM_INT);
-$stmt->execute();
-$user_data = $stmt->fetch(PDO::FETCH_ASSOC);
-
+    $query = "SELECT id, nome, email, data_aniversario FROM usuarios WHERE id = :id";
+    $stmt = $db->prepare($query);
+    $stmt->bindParam(':id', $id_user, PDO::PARAM_INT);
+    $stmt->execute();
+    $user_data = $stmt->fetch(PDO::FETCH_ASSOC);
+    
 if (!$user_data) {
     header('Location: erro.php');
     exit;
@@ -51,7 +51,7 @@ if (!$user_data) {
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-   
+    <link rel="stylesheet" href="css/userarea.css">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/lightbox.min.css" rel="stylesheet">
     <link href="css/owl.carousel.min.css" rel="stylesheet">
@@ -114,10 +114,13 @@ if (!$user_data) {
         <input type="text" name="nome" value="<?php echo $user_data['nome']; ?>">
         <label for="email">E-mail:</label>
         <input type="text" name="email" value="<?php echo $user_data['email']; ?>">
+        <label for="data_aniversario">Data de Aniversário:</label>
+        <input type="text" name="data_aniversario" value="<?php echo $user_data['data_aniversario']; ?>">
         <label for="nova_senha">Nova Senha (deixe em branco para não alterar):</label>
         <input type="password" name="nova_senha">
         <input type="submit" value="Salvar Alterações">
     </form>
+
     <div class="custom-footer">
     <div class="container py-5">
     
