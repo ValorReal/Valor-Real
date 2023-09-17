@@ -80,7 +80,7 @@ if (!$user_data) {
         </button>
         <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
-                <a href="index.php" class="nav-item nav-link active">Home</a>
+               
                 <a href="about.php" class="nav-item nav-link wh">Sobre</a>
                 
                 <div class="nav-item dropdown">

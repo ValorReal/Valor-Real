@@ -41,7 +41,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-   
+    <link rel="stylesheet" href="css/about.css">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -111,7 +111,7 @@
    
     <div class="container-xxl py-5">
     <div class="container">
-        <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Quem somos?</h1>
+        <h1 class="display-5 text-center mb-5 wow fadeInUp floating-title" data-wow-delay="0.1s">Quem somos?</h1>
         <p class="text-center">A nossa organização é dedicada a uma causa que busca revolucionar a maneira como as pessoas lidam com suas finanças e obrigações fiscais. 
             No coração do nosso projeto, está a crença de que todos devem ter acesso a ferramentas eficazes e simples para gerir suas finanças pessoais e cumprir com suas 
             obrigações fiscais de forma fácil e acessível. <br> <br>
