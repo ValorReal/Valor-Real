@@ -57,8 +57,9 @@ h2 {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
+    width: 20%;
+    border-collapse: collapse; 
+    margin-left: 40%;
     margin-top: 20px; 
     color: #ffffff;
 }
