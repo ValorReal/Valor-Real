@@ -172,7 +172,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="row g-4">
                     <div class="col-12">
-    <a class="animal-item" href="vip.php">
+    <a class="animal-item" href="userarea.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/jurosc.png" alt="">
             <div class="animal-text p-4">
@@ -184,7 +184,7 @@
 </div>
 
 <div class="col-12">
-    <a class="animal-item" href="vip.php">
+    <a class="animal-item" href="userarea.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/planreal.gif" alt="">
             <div class="animal-text p-4">
@@ -199,7 +199,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="row g-4">
                     <div class="col-12">
-    <a class="animal-item" href="vip.php">
+    <a class="animal-item" href="userarea.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/roubolegal.png" alt="">
             <div class="animal-text p-4">
@@ -210,7 +210,7 @@
     </a>
 </div>
 <div class="col-12">
-    <a class="animal-item" href="vip.php">
+    <a class="animal-item" href="userarea.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/emprereal.gif" alt="">
             <div class="animal-text p-4">
@@ -225,7 +225,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-4">
                     <div class="col-12">
-    <a class="animal-item" href="vip.php">
+    <a class="animal-item" href="userarea.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/b3logo1.png" alt="">
             <div class="animal-text p-4">
@@ -236,7 +236,7 @@
     </a>
 </div>
 <div class="col-12">
-    <a class="animal-item" href="vip.php">
+    <a class="animal-item" href="userarea.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/tipocnpj.png" alt="">
             <div class="animal-text p-4">
