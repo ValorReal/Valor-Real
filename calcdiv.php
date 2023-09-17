@@ -110,7 +110,7 @@
         <label for="cotas">Quantidade de Cotas:</label>
         <input type="number" name="cotas" required><br>
 
-        <label for="valor_cota">Valor Inicial da Cota:</label>
+        <label for="valor_cota">Valor Inicial da Cota em R$:</label>
         <input type="number" name="valor_cota" step="0.01" required><br>
 
         <label for="yield">Yield Anual (%):</label>
@@ -119,7 +119,7 @@
         <label for="valorizacao">Valorização Anual da Cota (%):</label>
         <input type="number" name="valorizacao" step="0.01" required><br>
 
-        <label for="aporte_mensal">Aporte Mensal Inicial:</label>
+        <label for="aporte_mensal">Aporte Mensal Inicial em R$:</label>
         <input type="number" name="aporte_mensal" step="0.01" required><br>
 
         <label for="aumento_aporte_anual">Aumento Anual do Aporte (%) :</label>
