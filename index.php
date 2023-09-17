@@ -172,7 +172,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="row g-4">
                     <div class="col-12">
-    <a class="animal-item" href="userarea.php">
+    <a class="animal-item" href="calculadora.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/jurosc.png" alt="">
             <div class="animal-text p-4">
