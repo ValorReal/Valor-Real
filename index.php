@@ -199,12 +199,12 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="row g-4">
                     <div class="col-12">
-    <a class="animal-item" href="userarea.php">
+    <a class="animal-item" href="calcdiv.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/roubolegal.png" alt="">
+            <img class="img-fluid" src="imagens/neve.gif" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">IRRF</p>
-                <h5 class="text-white mb-0">Imposto sobre a renda retido na fonte</h5>
+                <p class="text-white small text-uppercase mb-0">Efeito Bola de Neve</p>
+                <h5 class="text-white mb-0">Use o tempo ao seu favor!</h5>
             </div>
         </div>
     </a>
