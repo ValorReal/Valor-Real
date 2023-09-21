@@ -108,7 +108,7 @@ if (!$user_data) {
         ?>
     </nav> 
     <h2>Editar Perfil</h2>
-    <form action="evento/atualizar_userarea.php" method="post">
+    <form action="evento/atualizar_perfil.php" method="post">
         <input type="hidden" name="id" value="<?php echo $user_data['id']; ?>">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" value="<?php echo $user_data['nome']; ?>">

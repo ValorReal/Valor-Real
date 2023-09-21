@@ -44,7 +44,7 @@
         }
         
       
-        header('Location: /valorreal/userarea.php');
+        header('Location: /valor/userarea.php');
         exit;
     }
     ?>
