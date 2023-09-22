@@ -210,7 +210,7 @@
     </a>
 </div>
 <div class="col-12">
-    <a class="animal-item" href="userarea.php">
+    <a class="animal-item" href="plfin2.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/emprereal.gif" alt="">
             <div class="animal-text p-4">
@@ -240,8 +240,8 @@
         <div class="position-relative">
             <img class="img-fluid" src="imagens/tipocnpj.png" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">Ecopatinhas</p>
-                <h5 class="text-white mb-0">Flor</h5>
+                <p class="text-white small text-uppercase mb-0">Tipos de CNPJ</p>
+                <h5 class="text-white mb-0">As principais diferenças.</h5>
             </div>
         </div>
     </a>
