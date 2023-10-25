@@ -231,7 +231,7 @@
     </a>
 </div>
 <div class="col-12">
-    <a class="animal-item" href="userarea.php">
+    <a class="animal-item" href="tipocn.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/tipocnpj.png" alt="">
             <div class="animal-text p-4">
