@@ -139,7 +139,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $total_cotas = $cotas;
     $total_dividendos_recebidos = 0;
     $total_aportes = 0;
-
+    
     echo "<h2>Resultado Anual:</h2>";
     echo "<table border='1'>";
     echo "<tr><th>Ano</th><th>Valor de 1 Cota</th><th>Quantidade de Cotas</th><th>Valor Investido</th><th>Aporte Anual</th><th>Dividendos</th><th>Dividendos Reinvestidos</th></tr>";

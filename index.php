@@ -220,7 +220,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-4">
                     <div class="col-12">
-    <a class="animal-item" href="userarea.php">
+    <a class="animal-item" href="rcompra.php">
         <div class="position-relative">
             <img class="img-fluid" src="imagens/b3logo1.png" alt="">
             <div class="animal-text p-4">

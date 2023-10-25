@@ -24,6 +24,7 @@
     
 if (!$user_data) {
     header('Location: erro.php');
+    
     exit;
 }
 ?>
