@@ -32,6 +32,10 @@ require_once 'evento/conexao.php';
             <label for="dataan_cad">Sua data de nascimento</label>
             <input id="dataan_cad" name="dataan_cad" required="required" type="date" placeholder="Sua data de nascimento"/>
           </p> 
+          <p> 
+    <label for="telefone_cad">Seu Telefone</label>
+    <input id="telefone_cad" name="telefone_cad" type="number" placeholder="Seu Telefone"/>
+</p>
 
           <p> 
             <label for="email_cad">Seu E-mail</label>
@@ -64,22 +68,24 @@ require_once 'evento/conexao.php';
   </div> 
   <?php 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  
     $nome = addslashes($_POST['nome_cad']);
     $email = addslashes($_POST['email_cad']);
     $dataan = addslashes($_POST['dataan_cad']); 
     $senha = addslashes($_POST['senha_cad']);
     $confisenha = addslashes($_POST['senha_con']);  
+    $telefone = addslashes($_POST['telefone_cad']); 
 
     if (!empty($nome) && !empty($senha) && !empty($confisenha) && !empty($email) && !empty($dataan)) {
-        $database = new Database();
+      $database = new Database();
         $connection = $database->conectar(); 
 
         $u->conectar("valor", "localhost", "root", ""); 
 
         if ($u->msgErro == "") {
             if ($senha == $confisenha) { 
-                if ($u->cadastrar($nome, $senha, $email, $dataan)) {   
-                    ?>
+              if ($u->cadastrar($nome, $senha, $email, $dataan, $telefone)) {   
+                ?>
                     <div id="msg-sucesso">
                     Cadastrado com sucesso! Volte para fazer o login!
                     </div>

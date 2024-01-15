@@ -17,24 +17,28 @@ class usuario
         }
     }
 
-    public function cadastrar($nome, $senha, $email, $dataan) {
+    public function cadastrar($nome, $senha, $email, $dataan, $telefone) {
         $sql = $this->pdo->prepare("SELECT id FROM usuarios WHERE nome = :n");
         $sql->bindValue(":n", $nome);
         $sql->execute();
-
+    
         if ($sql->rowCount() > 0) {
             return false;
         } else {
-            $sql = $this->pdo->prepare("INSERT INTO usuarios (nome, senha, email, data_aniversario) VALUES (:n, :s, :e, :d)");
+            $hashedSenha = password_hash($senha, PASSWORD_DEFAULT);
+    
+            $sql = $this->pdo->prepare("INSERT INTO usuarios (nome, senha, email, data_aniversario, telefone) VALUES (:n, :s, :e, :d, :t)");
             $sql->bindValue(":n", $nome);
-            $sql->bindValue(":s", sha1($senha)); 
+            $sql->bindValue(":s", $hashedSenha);
             $sql->bindvalue(":e", $email);
-            $sql->bindvalue(":d", $dataan); 
+            $sql->bindvalue(":d", $dataan);
+            $sql->bindvalue(":t", $telefone);
             $sql->execute();
-
+    
             return true;
         }
     }
+    
 
     public function logar($nome, $senha)
     {
