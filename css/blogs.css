@@ -1,0 +1,100 @@
+body {
+    background-color: #2b134b;
+}
+
+h1 {
+    color: #00ff88; 
+}
+
+.floating-title {
+    animation: floatAnimation 2s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+p {
+    color: #FFFFFF;
+}
+
+a.cnrtb {
+    color: #00ff88;
+}
+
+.cardt { 
+    height: auto; 
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.cardb {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #613797;
+    overflow: hidden;
+}
+
+.img-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-perfil-cen {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.tt-blog {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.tt-blog h1 {
+    font-size: 20px;
+    color: #00ff88;
+}
+
+.tt-blog p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) { 
+    .cardb { 
+        flex-direction: row;
+
+    }
+    .img-perfil {
+        width: 20%;
+    }
+
+    .img-perfil-cen {
+        width: 100%;
+    }
+
+    .tt-blog {
+        width: 60%;
+        margin-left: 20%;
+    }
+}

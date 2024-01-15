@@ -55,7 +55,7 @@
             <h1 class="  brand-text">Valor Real</h1>
 
         </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler fd1" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
@@ -231,12 +231,12 @@
     </a>
 </div>
 <div class="col-12">
-    <a class="animal-item" href="tipocn.php">
+    <a class="animal-item" href="blog.php">
         <div class="position-relative">
-            <img class="img-fluid" src="imagens/tipocnpj.png" alt="">
+            <img class="img-fluid" src="imagens/blogs.gif" alt="">
             <div class="animal-text p-4">
-                <p class="text-white small text-uppercase mb-0">Tipos de CNPJ</p>
-                <h5 class="text-white mb-0">As principais diferenças.</h5>
+                <p class="text-white small text-uppercase mb-0">Blog's</p>
+                <h5 class="text-white mb-0">Opniões e pesquisas proeminentes do mercado!</h5> 
             </div>
         </div>
     </a>

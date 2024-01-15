@@ -76,7 +76,7 @@ if (!$user_data) {
             <h1 class="  brand-text">Valor Real</h1>
 
         </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler fd1" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
