@@ -239,7 +239,7 @@ No contexto empresarial, a Educação Financeira é essencial para o sucesso de 
     <div class="tt-blog">
         <h1> Brenda Letícia de Campos Antunes</h1>
         <br>
-        <p>Economista, embaixadora na @xpinvestimentos e Back Office na @grana.capital</p>
+        <p>Economista, Influenciadora, Criadora de Conteúdo e, atualmente, contribuidora no site Mulher na Bolsa. Iniciou sua carreira no Mercado Financeiro aos 16 anos investindo em Tesouro Direto, dois anos depois, fundou o "@falebrenda", um canal nas mídias sociais que busca desmistificar esse mundo e trazer acessibilidade e democratização para todas as pessoas. Também instrui através de palestras de Educação Financeira e Economia, em faculdade, instituições e escolas.</p>
     </div>
 </a>
 
