@@ -95,7 +95,7 @@
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Blog's</a></li>
 
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Falebrenda</li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">@falebrenda</li>
                 </ol>
             </nav>
         </div> 
@@ -228,8 +228,9 @@ No contexto empresarial, a Educação Financeira é essencial para o sucesso de 
         </p>
         
 <h1>E para quem se interessou...</h1>
-<p>Para escrever este blog, nos baseamos no TCC da <a class="cnrtb" href="https://www.instagram.com/falebrenda/" target="_blank">@falebrenda</a>, 
-   que está disponível para download <a class="cnrtb" href="../imagens/tcc10.pdf" target="_blank">aqui!</a> Siga-a no Instagram clicando no @ destacado.
+<p>Texto baseado na pesquisa de Trabalho de Conclusão de Curso “Educação Financeira no Brasil”, apresentada por Brenda Campos <a class="cnrtb" href="https://www.instagram.com/falebrenda/" target="_blank">@falebrenda</a>, 
+no Curso de Ciências Econômicas do Centro Universitário de Bauru, sob a orientação do Professor Dr. Fábio José Esguícero, em 2023.
+Dowload disponível <a class="cnrtb" href="../imagens/tcc10.pdf" target="_blank">aqui.</a> Siga-a no Instagram clicando no @ destacado.
 </p>
 <div class="cardt">
                     <a href="https://www.instagram.com/falebrenda/" class="cardb">
@@ -239,7 +240,8 @@ No contexto empresarial, a Educação Financeira é essencial para o sucesso de 
     <div class="tt-blog">
         <h1> Brenda Letícia de Campos Antunes</h1>
         <br>
-        <p>Economista, Influenciadora, Criadora de Conteúdo e, atualmente, contribuidora no site Mulher na Bolsa. Iniciou sua carreira no Mercado Financeiro aos 16 anos investindo em Tesouro Direto, dois anos depois, fundou o "@falebrenda", um canal nas mídias sociais que busca desmistificar esse mundo e trazer acessibilidade e democratização para todas as pessoas. Também instrui através de palestras de Educação Financeira e Economia, em faculdade, instituições e escolas.</p>
+        <p>Economista, Influenciadora e Criadora de Conteúdo. Iniciou sua carreira no Mercado Financeiro aos 16 anos. Dois anos depois, fundou o "@falebrenda", um veículo de comunicação e conteúdo que tem como objetivo desmistificar e democratizar o universo da economia e investimentos. Também instrui há alguns anos, palestras sobre, principalmente, educação financeira e economia, em faculdades, instituições privadas e escolas.
+Juntou-se a XP Investimentos, como Embaixadora, para expandir a cultura de investir e intermediar soluções para a falta de educação financeira tão caracterizada em nosso país.</p>
     </div>
 </a>
 
