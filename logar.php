@@ -11,6 +11,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
     $senha = sha1($_POST['password']); 
 
     if (!empty($email) && !empty($senha)) {
+        
         $sql = $conexao->prepare("SELECT id FROM usuarios WHERE email = :e AND senha = :s");
         $sql->bindValue(":e", $email);
         $sql->bindValue(":s", $senha); 
